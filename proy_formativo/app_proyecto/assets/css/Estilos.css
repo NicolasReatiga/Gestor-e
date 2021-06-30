@@ -3,23 +3,88 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
-
 /* Clases especiales */
+.borde{
+    border: 1px solid gray;
+}
+.titulo{
+    width:  100%;
+    height: 70px;
+}
 
 /* Contenedor */
+.contenedor{
+    width: 100%;
+}
 
 /* Navegador */
-
+nav{
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.navegador{
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+.ingreso{
+    width: 150%;
+    height: 100%;
+    float: left;
+}
 /* Encabezado */
-
+header{
+    width: 100%;
+    height: 50px;
+}
 /* Secciones */
-
+section{
+    width: 100%;
+    height: 500px;
+}
 /* Portafolio */
-
+.col-port{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
 /* Nosotros */
+.col-us{
+    width: 100%;
+    height: 33.33%;
+}
+.col-us-ext{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.col-us-cnt{
+    width: 40%;
 
+}
 /* Contactenos */
-
+.col-cont-ext{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.fila-cont-arr{
+    width: 100%;
+    height: 70%;
+}
+.fila-cont-abj{
+    width: 100%;
+    height: 30%;
+}
 /* Pie de pagina */
-
+footer{
+    width: 100%;
+    height: 50px;
+}
 
